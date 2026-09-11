@@ -61,7 +61,7 @@ pigthree = Group(
      )
      
 # The pigs move using one of the Mouse Motion Events: onMouseMove.
-# Used mutiple if statements so that it can command how the pigs move and when they need to be moved. 
+# Used multiple if statements so that it can command how the pigs move and when they need to be moved. 
 def onMouseMove(mouseX, mouseY):
     if(onMouseMove):
        pigone.centerX += 5
