@@ -1,4 +1,5 @@
 from cmu_graphics import * 
+
 # Hold the right arrow key to move, then hold the space bar to jump over the hurdle
 # If you hit the hurdle, it will say "try again!" and you will have to reset the game by pressing 'r'
 # The hurdle and sun move across the screen
