@@ -113,4 +113,5 @@ def onMousePress(mouseX, mouseY):
          playSoundOnly(boom, appLabels[7])
     elif(laughLabel.hits(mouseX, mouseY)):
          playSoundOnly(laugh, appLabels[8])
+         
 cmu_graphics.run()
