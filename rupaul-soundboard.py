@@ -1,4 +1,8 @@
 from cmu_graphics import *
+
+# A soundboard of notable quotes and sound effects from RuPaul's Drag Race 
+# Click on the buttons to play the sound effects
+
 app.background = 'lavender'
 
 # rupaul
@@ -51,16 +55,16 @@ boomLabel = Label('          BOOM          ', 204, 370, size = 12, bold = True)
 laughLabel = Label('          LAUGH          ', 337, 370, size = 12, bold = True)
 
 # sound effects
-shade = Sound('drag-race-shade-sound.mp3')
-whoCares = Sound('who-cares-.mp3')
-hi = Sound ('hieeee.mp3')
-backrolls = Sound ('back-rolls.mp3')
-callmeMother = Sound ('call-me-mother.mp3')
-herses = Sound ('she_done_already_done_had_herses_rupauls_drag_race_all_stars.mp3')
-peanutButter = Sound('peanutbutter-rupaul-clip.mp3')
-boom = Sound ('boom_10.mp3')
-laugh = Sound('rupaul.mp3')
-hello = Sound('ScreenRecording_09-10-2026 22-00-56_1.mp3')
+shade = Sound('sounds/drag-race-shade-sound.mp3')
+whoCares = Sound('sounds/who-cares-.mp3')
+hi = Sound ('sounds/hieeee.mp3')
+backrolls = Sound ('sounds/back-rolls.mp3')
+callmeMother = Sound ('sounds/call-me-mother.mp3')
+herses = Sound ('sounds/she_done_already_done_had_herses_rupauls_drag_race_all_stars.mp3')
+peanutButter = Sound('sounds/peanutbutter-rupaul-clip.mp3')
+boom = Sound ('sounds/boom_10.mp3')
+laugh = Sound('sounds/rupaul.mp3')
+hello = Sound('sounds/ScreenRecording_09-10-2026 22-00-56_1.mp3')
 
 
 # rupaul intro

@@ -1,8 +1,7 @@
 from cmu_graphics import * 
-# Fill me in!
-
-# Hold the right arrow key, then hold the spacebar the for the pig to run and jump over the hurdle
-# Hold only the right arrow key for the pig to go under the hurdle
+# Hold the right arrow key to move, then hold the space bar to jump over the hurdle
+# If you hit the hurdle, it will say "try again!" and you will have to reset the game by pressing 'r'
+# The hurdle and sun move across the screen
 
 Rect(0,0, 400, 250, fill = 'lightSkyBlue')
 Rect(0, 250, 400, 150, fill = 'saddleBrown')
@@ -42,6 +41,7 @@ hurdles = Group(
           Line(179, 276, 219, 290, fill = 'blue', lineWidth = 5),
           )
           
+# game over screen
 app.gameOver = False
 app.tryAgainLabel = Label("try again! (Press 'r' to reset)", 200, 100, size=24, bold=True, fill='red', visible=False)
 
@@ -68,6 +68,7 @@ def onKeyHold(keys):
             hurdles.centerX = 400
             pig.centerX = 0
 
+# pressing spacebar to jump
 def onKeyPress(key):
     if app.gameOver:
         if key == 'r':
@@ -88,6 +89,7 @@ def onKeyPress(key):
             app.gameOver = True
             app.tryAgainLabel.visible = True
 
+# letting go of spacebar to go back down
 def onKeyRelease(key):
     if app.gameOver:
         return
@@ -99,6 +101,7 @@ def onKeyRelease(key):
             app.gameOver = True
             app.tryAgainLabel.visible = True
 
+# If the pig is still jumping after half-a-second, it automatically goes back down
 def onStep():
     if app.gameOver:
         return
