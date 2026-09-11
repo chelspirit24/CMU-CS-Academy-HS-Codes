@@ -7,7 +7,7 @@ Here is a collection of some of the interactive graphics, animations, and games 
 ## Projects
 
 ### Modern Kitchen (`kitchen.py`)
-A visual scene of a modern kitchen created using CMU Graphics primitives. It features detailed cabinets, an island with chairs, and hanging lights. It demonstrates the use of coordinate geometry, color manipulation, `for` loops, and grouping shapes.
+A visual scene of a modern kitchen created using CMU Graphics primitives. It features detailed cabinets, an island with chairs, and hanging lights. 
 
 ### Pigs Jump Game (`pigs-jump.py`)
 An interactive hurdle jumping game! 
