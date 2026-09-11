@@ -2,7 +2,7 @@
 
 For three years, I took programming courses in high school. We used CMU CS Academy to learn Python coding that produced visuals from the CMU Graphics package. 
 
-Here is a collection of some of the interactive graphics, animations, and games I created during that time. 
+Here is an archive of some of the interactive graphics, animations, and games I created during that time. 
 
 ## Projects
 
