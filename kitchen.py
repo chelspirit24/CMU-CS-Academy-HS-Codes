@@ -36,7 +36,7 @@ lights = Group(
 for light in lights.children:
     Line(light.centerX, 10, light.centerX, light.top)
     
-# Chair 
+# Chairs 
 Line(110, 300, 170, 300, lineWidth = 5)
 Line(128, 300, 116, 359, lineWidth = 5)
 Line(148, 300, 160, 359, lineWidth = 5)
