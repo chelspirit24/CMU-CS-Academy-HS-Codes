@@ -1,4 +1,4 @@
-# CMU High School Codes 
+# CMU CS Academy High School Codes 
 
 For three years, I took programming courses in high school. We used CMU CS Academy to learn Python coding that produced visuals from the CMU Graphics package. 
 
